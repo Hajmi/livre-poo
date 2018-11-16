@@ -44,6 +44,30 @@ public class Livre {
 
 	}
 	
+	public String getTitre() {
+		return titre;
+	}
+
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
+
+	public String getAuteur() {
+		return auteur;
+	}
+
+	public void setAuteur(String auteur) {
+		this.auteur = auteur;
+	}
+
+	public int getPrix() {
+		return prix;
+	}
+
+	public void setPrix(int prix) {
+		this.prix = prix;
+	}
+
 	public String toString() {
 		return "Le prix du livre "+titre+" de l'auteur "+auteur+" est à : "+prix+" euros \r\nLa référence du livre est "+ID; 
 	}

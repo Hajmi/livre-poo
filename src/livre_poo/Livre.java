@@ -39,6 +39,8 @@ public class Livre {
 		for (int i =0; i<livres.length; i++) {
 			System.out.println(livres[i].toString());
 		}
+		
+		sc.close();
 
 	}
 	
